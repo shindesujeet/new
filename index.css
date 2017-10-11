@@ -1,0 +1,32 @@
+body{
+    background-image: url("images/b2.jpg"); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+    #item{
+        float :left;
+        border: 1px solid skyblue;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .header{
+        border:1px solid black;
+    }
+    span {
+        font-size: 30px;
+    }
+    img{
+        width: 135px;
+        height: 180px; 
+        padding-left:10px;
+        padding-top:10px;
+    }
+    .buttons{
+        padding-top: 20px;
+    }
+    .bookDetails{
+    float : left;
+    }
