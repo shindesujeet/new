@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="index.css">
 <link rel="stylesheet" href="bootstrap.css">
 
-<body ng-app="bookStore" ng-controller="indexController">
+<body ng-app="bookStore" ng-controller="indexController" style="background-image:url(images/c1.jpg);" >
    
 <nav class="navbar navbar-default" style="border: 1px solid skyblue;">
   <div class="row">  
@@ -24,22 +24,21 @@
     </div>
 </nav>
 
-
-    <div id="item" ng-repeat="item in bookList | filter:userSearch " style="margin-top:5%; margin-left:8%;">
+    <div id="item" ng-repeat="item in bookList | filter:userSearch " style="margin-top:8%; margin-left:8%;">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5" >
                 <img ng-src="images/{{item.bookName}}.jpg"/>
             </div>
             <div class="col-md-7" >
-                <div class="name" style="color:whitesmoke;font-size: 20px;font-weight:bold;background-color: rgba(0, 0, 0, 0);">{{item.bookName}}</div>
-                <div ng-show="showDetails" style="color:aliceblue; ">
+                <div class="name" style="color:whitesmoke;font-size:20px;font-weight:bold;background-color: rgba(0, 0, 0, 0);margin-left:10px;">{{item.bookName}}</div>
+                <div ng-show="showDetails" style="color:aliceblue;margin-left:10px">
                     Price : {{item.price}}Rs <br> Author : {{item.author}}
-                    <hr>
-                    <button class="btn btn-primary" ng-click="showDetails = false">Hide</button>
+                    <br>
+                    <button id="button" class="buttons btn btn-primary" ng-click="showDetails = false" style="margin-left: 10px;margin-bottom:10px;">Hide</button>
                 </div>
-                <div class="buttons">
-                    <button class="btn btn-warning" ng-hide="showDetails" ng-click="showDetails = true">Details</button>
-                    <button class="btn btn-danger" ng-click="addToCart(item)" ng-hide="showDetails">Buy</button>
+                <div class="buttons" id="button">
+                    <button class="btn btn-warning" ng-hide="showDetails" ng-click="showDetails = true" style="margin-left:5px;margin-bottom: 10px;">Details</button>
+                    <button class="btn btn-danger" ng-click="addToCart(item)" ng-hide="showDetails" style="margin-left:2px;margin-bottom:10px; margin-right:2px">Buy</button>
                 </div>
             </div>
         </div>

@@ -1,12 +1,12 @@
 body{
-    background-image: url("images/b2.jpg"); no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	
+	    background-size:auto;
+}  
+
+buttons{
+	margin-left:5px;
 }
-    #item{
+
+  #item{
         float :left;
         border: 1px solid skyblue;
         width: 300px;
@@ -19,10 +19,9 @@ body{
         font-size: 30px;
     }
     img{
-        width: 135px;
-        height: 180px; 
-        padding-left:10px;
-        padding-top:10px;
+            width: 125px;
+    height: 180px;
+    padding: 10px;
     }
     .buttons{
         padding-top: 20px;

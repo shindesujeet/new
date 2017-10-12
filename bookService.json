@@ -1,8 +1,8 @@
 [
-		{ "bookName": "java black book", "price": "500", "author": "A"},
-        { "bookName": "java programs", "price": "700", "author": "B"},
-        { "bookName": "head first java", "price": "200", "author": "C"},
-        { "bookName": "hardcore java", "price": "300", "author": "D"},
-		{ "bookName": "core java", "price": "100", "author": "E"},
-		{ "bookName": "java prime", "price": "800", "author": "F"}
+		{ "bookName": "java black book", "price": "500", "author": "John"},
+        { "bookName": "java programs", "price": "700", "author": "Shahid"},
+        { "bookName": "head first java", "price": "200", "author": "Ranveer"},
+        { "bookName": "hardcore java", "price": "300", "author": "Hritik"},
+		{ "bookName": "core java", "price": "100", "author": "Ranbir"},
+		{ "bookName": "java prime", "price": "800", "author": "Hugh"}
 ]
