@@ -2,7 +2,7 @@
 		{ "bookName": "java black book", "price": "500", "author": "John"},
         { "bookName": "java programs", "price": "700", "author": "Shahid"},
         { "bookName": "head first java", "price": "200", "author": "Ranveer"},
-        { "bookName": "hardcore java", "price": "300", "author": "Hritik"},
+        { "bookName": "hardcore java", "price": "300", "author": "Hriti"},
 		{ "bookName": "core java", "price": "100", "author": "Ranbir"},
 		{ "bookName": "java prime", "price": "800", "author": "Hugh"}
 ]
